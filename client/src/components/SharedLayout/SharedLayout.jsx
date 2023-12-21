@@ -4,7 +4,7 @@ import Footer from "./Footer"
 
 const SharedLayout = () => {
   return (
-    <div>
+    <div className="bg-slate-950 h-[720px] text-white">
       <Header/>
       <Outlet/>
       <Footer/>
