@@ -1,9 +1,5 @@
-import React from 'react'
+import Routing from "./route/Routing"
 
 export default function App() {
-  return (
-    <div className='text-6xl'>
-      Hello
-    </div>
-  )
+  return <Routing/>
 }
