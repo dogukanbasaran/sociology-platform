@@ -12,7 +12,7 @@ const IntroductionPage = () => {
         </div>
         <div className='h-[120px] flex p-4'>
           <Link to={"/about"}>
-              <button className="p-2 border-[0.5px] w-[250px] border-white border-opacity-20 bg-blue-800 rounded-sm hover:opacity-75 duration-300">About us</button>
+              <button className="bg-slate-800 bg-opacity-20 w-[200px] rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300">About us</button>
           </Link>
         </div>
         <div className='h-[auto] w-3/4'>
