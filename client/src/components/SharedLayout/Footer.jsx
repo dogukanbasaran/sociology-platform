@@ -4,7 +4,7 @@ import { FaInstagram, FaYoutube, FaXTwitter, FaLinkedin } from "react-icons/fa6"
 
 const Footer = () => {
   return (
-    <footer className='bg-gradient-to-b from-slate-950 to-slate-900 h-[200px]'>
+    <footer className='bg-gradient-to-b from-slate-950 to-slate-900 h-[auto] border-t border-opacity-5 border-white pt-5'>
       <div className='container flex px-48'>
 
         <div className='h-[150px] basis-1/3'>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
 
       </div>
-      <p className='text-center pt-4 font-semibold'>2024 Dogukan Basaran No © Copyright.</p>
+      <p className='text-center py-5 font-semibold'>2024 Dogukan Basaran No © Copyright.</p>
     </footer>
   )
 }
