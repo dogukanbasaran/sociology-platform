@@ -18,11 +18,10 @@ export default function Routing() {
         {/* PUBLIC */}
         <Route element={<SharedLayout/>}>
             <Route path="/" element={<IntroductionPage/>}/>
-            <Route path="/sign-in" element={<SignInPage/>}/>
-            <Route path="/sign-up" element={<SignUpPage/>}/>
             <Route path="/about" element={<AboutPage/>}/>      
         </Route>
-
+        <Route path="/sign-in" element={<SignInPage/>}/>
+        <Route path="/sign-up" element={<SignUpPage/>}/>
         <Route path="*" element={<NotFoundPage/>}/>
     </Routes>
   </Router>
