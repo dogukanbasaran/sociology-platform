@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="flex justify-between p-4 bg-slate-950 text-white">
+    <section className="flex justify-between p-4 bg-slate-950 text-white border-b border-opacity-10 border-white">
       <div>
         <Link to={"/"}>
          <span className="text-[24px] font-open-sans text-white font-bold">SOCIOLOGY PLATFORM</span>
