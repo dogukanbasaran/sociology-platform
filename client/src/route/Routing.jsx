@@ -4,7 +4,7 @@ import IntroductionPage from "../pages/PublicPages/IntroductionPage"
 import AboutPage from "../pages/PublicPages/AboutPage"
 import SignInPage from "../pages/PublicPages/SignInPage"
 import SignUpPage from "../pages/PublicPages/SignUpPage"
-import SharedLayout from "../components/SharedLayout/SharedLayout"
+import SharedLayout from "../components/SharedLayout"
 
 
 import SourcesPage from "../pages/PrivatePages/SourcesPage"

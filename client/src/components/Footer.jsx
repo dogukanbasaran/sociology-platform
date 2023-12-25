@@ -9,7 +9,7 @@ const Footer = () => {
 
         <div className='h-[150px] basis-1/3'>
           <Link to={"/"}>
-            <span className="text-[16px] font-open-sans text-white font-bold">SOCIOLOGY PLATFORM</span>
+            <span className="text-[16px] font-open-sans text-white font-bold">SOCIOLOGY SOURCES</span>
           </Link>
         </div>
         <div className='h-[150px] basis-1/3 flex justify-center'>

@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import Footer from "../../components/SharedLayout/Footer";
+import Footer from "../../components/Footer";
 
 const LoginPage = () => {
   return (

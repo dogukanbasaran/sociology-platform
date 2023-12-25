@@ -1,4 +1,3 @@
-import Logo from "../../assets/temporarylogo.svg";
 import {Link} from "react-router-dom";
 
 const Header = () => {
@@ -6,7 +5,7 @@ const Header = () => {
     <section className="flex justify-between p-4 bg-slate-950 text-white border-b border-opacity-10 border-white">
       <div>
         <Link to={"/"}>
-         <span className="text-[24px] font-open-sans text-white font-bold">SOCIOLOGY PLATFORM</span>
+         <span className="text-[24px] font-open-sans text-white font-bold">SOCIOLOGY SOURCES</span>
         </Link>
       </div>
       <div>

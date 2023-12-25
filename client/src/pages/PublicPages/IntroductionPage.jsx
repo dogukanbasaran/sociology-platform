@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import Sources from "../../components/Sources";
 
 
 const IntroductionPage = () => {
@@ -15,33 +16,13 @@ const IntroductionPage = () => {
           </Link>
         </div>
         <div className='h-[auto] w-3/4'>
-          <p className="text-[18px] text-gray-400 pb-1 font-semibold border-white border-b-[0.5px] border-opacity-10 inline">Latest Sources</p>
+          <div className="text-center"><p className="text-[18px] text-gray-400 pb-1 font-semibold border-white border-b-[0.5px] border-opacity-10 inline">Latest Sources</p></div>
           <div className="flex justify-center gap-8 pt-8">
 
-              <div className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 w-[300px]">
-                <div className="p-2 flex flex-col">
-                  <span className="border-white border-b-[0.5px] border-opacity-10">Karl Marx</span>
-                  <p className="py-2">Karl Marx was a German-born philosopher, economist, political theorist, historian, sociologist, journalist, and revolutionary socialist.</p>
-                </div>
-                <button className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer w-full">Download</button>
-              </div>
-
-              <div className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 w-[300px]">
-                <div className="p-2 flex flex-col">
-                  <span className="border-white border-b-[0.5px] border-opacity-10">Karl Marx</span>
-                  <p className="py-2">Karl Marx was a German-born philosopher, economist, political theorist, historian, sociologist, journalist, and revolutionary socialist.</p>
-                </div>
-                <button className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer w-full">Download</button>
-              </div>
-
-
-              <div className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 w-[300px]">
-                <div className="p-2 flex flex-col">
-                  <span className="border-white border-b-[0.5px] border-opacity-10">Karl Marx</span>
-                  <p className="py-2">Karl Marx was a German-born philosopher, economist, political theorist, historian, sociologist, journalist, and revolutionary socialist.</p>
-                </div>
-                <button className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer w-full">Download</button>
-              </div>
+           
+            <Sources/>
+            <Sources/>
+            <Sources/>
 
 
               

@@ -1,4 +1,4 @@
-import Footer from "../../components/SharedLayout/Footer";
+import Footer from "../../components/Footer";
 
 const SignUpPage = () => {
   return (
