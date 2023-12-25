@@ -17,16 +17,7 @@ const IntroductionPage = () => {
         </div>
         <div className='h-[auto] w-3/4'>
           <div className="text-center"><p className="text-[18px] text-gray-400 pb-1 font-semibold border-white border-b-[0.5px] border-opacity-10 inline">Latest Sources</p></div>
-          <div className="flex justify-center gap-8 pt-8">
-
-           
-            <Sources/>
-            <Sources/>
-            <Sources/>
-
-
-              
-          </div>
+          <Sources/>
         </div>
       </section>
     </div>
