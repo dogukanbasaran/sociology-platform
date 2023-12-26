@@ -20,7 +20,7 @@ const port = 3002;
 
 app.use(express.json());
 
-app.use("/api/source", sourceRoutes);
+app.use("/api/sources", sourceRoutes);
 
 app.listen(port,() => {
     console.log(`Server is started at ${port} port.`)

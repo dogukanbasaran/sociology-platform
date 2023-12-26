@@ -1,9 +1,11 @@
 import express from "express";
-import {getSources, createSource} from "../controllers/source.controller.js";
+import {getSources,getSource, createSource} from "../controllers/source.controller.js";
 
 const router = express.Router();
 
-router.get("/get-sources", getSources);
-router.post("/create-source", createSource);
+router.get("/", getSources);
+router.get("/:id", getSource);
+
+router.post("/", createSource);
 
 export default router;

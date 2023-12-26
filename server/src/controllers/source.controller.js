@@ -6,6 +6,12 @@ export const getSources = (req, res) => {
     .catch(err => res.json(err))
 }
 
+export const getSource = (req, res) => {
+    Source.findById(req.params.id)
+    .then(source => res.json(source))
+    .catch(err => res.json(err))
+}
+
 export const createSource = async (req, res) => {
     const {
         title,

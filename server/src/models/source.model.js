@@ -15,7 +15,7 @@ const sourceSchema = new mongoose.Schema({
     },
     author: {
         type: String,
-        required: true
+        default: "user"
     }
 }, {timestamps: true});
 

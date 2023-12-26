@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react"
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 const Sources = () => {
 
   const [sources, setSources] = useState([]);
 
   useEffect(() => {
-    axios.get("/api/source/get-sources")
+    axios.get("/api/sources/")
     .then(sources => setSources(sources.data))
     .catch(error => console.log(error))
   }, []);
@@ -29,7 +30,9 @@ const Sources = () => {
                     </div>
                     <p className="py-2">{truncatedContent + "..."}</p>
                 </div>
+               <Link to={`/sources/${source._id}`}>
                 <button className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer w-full">More Detailed</button>
+               </Link>
           </div>
         )
        })}

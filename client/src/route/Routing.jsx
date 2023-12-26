@@ -7,8 +7,10 @@ import SignUpPage from "../pages/PublicPages/SignUpPage"
 import SharedLayout from "../components/SharedLayout"
 
 
-import SourcesPage from "../pages/PrivatePages/SourcesPage"
-import DashboardPage from "../pages/PrivatePages/DashboardPage"
+import DashboardPage from "../pages/PrivatePages/DashboardPage";
+import CreateSource from "../pages/PrivatePages/CreateSource";
+import SourcesPage from "../pages/PrivatePages/SourcesPage";
+import SourcePage from "../pages/PrivatePages/Source";
 
 import NotFoundPage from "../pages/NotFoundPage"
 
@@ -18,7 +20,10 @@ export default function Routing() {
         {/* PUBLIC */}
         <Route element={<SharedLayout/>}>
             <Route path="/" element={<IntroductionPage/>}/>
-            <Route path="/about" element={<AboutPage/>}/>      
+            <Route path="/about" element={<AboutPage/>}/> 
+            <Route path="/create-source" element={<CreateSource/>}/>
+            <Route path="/sources" element={<SourcesPage/>}/>
+            <Route path="/sources/:id" element={<SourcePage/>}/>
         </Route>
         <Route path="/sign-in" element={<SignInPage/>}/>
         <Route path="/sign-up" element={<SignUpPage/>}/>

@@ -9,7 +9,13 @@ const Header = () => {
         </Link>
       </div>
       <div>
+        
         <ul className="flex gap-2">
+            <Link to={"/create-source"}>
+              <li className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer">
+                <span>Create a New Source</span>
+              </li>
+            </Link>
             <Link to={"/sign-in"}>
               <li className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer">
                 <span>Sign In</span>
