@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import { FaPlus } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         <ul className="flex gap-2">
             <Link to={"/create-source"}>
               <li className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer">
-                <span>Create a New Source</span>
+                <div className="flex items-center gap-2"><FaPlus/> <span>Source</span></div>
               </li>
             </Link>
             <Link to={"/sign-in"}>

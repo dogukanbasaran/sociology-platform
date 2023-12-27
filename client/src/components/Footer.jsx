@@ -28,16 +28,16 @@ const Footer = () => {
         </div>        
         <div className='h-[150px] flex justify-end gap-1 basis-1/3'>
             <a href="https://www.instagram.com/dogukanbasarannn/">
-              <FaInstagram className="text-[24px] hover:text-blue-400"/>
+              <FaInstagram className="text-[24px] hover:text-blue-500"/>
             </a>
             <a href="https://www.instagram.com/dogukanbasarannn/">
-              <FaXTwitter className="text-[24px] hover:text-blue-400"/>
+              <FaXTwitter className="text-[24px] hover:text-blue-500"/>
             </a>
             <a href="https://www.instagram.com/dogukanbasarannn/">
-              <FaYoutube className="text-[24px] hover:text-blue-400"/>
+              <FaYoutube className="text-[24px] hover:text-blue-500"/>
             </a>
             <a href="https://www.instagram.com/dogukanbasarannn/">
-              <FaLinkedin className="text-[24px] hover:text-blue-400"/>
+              <FaLinkedin className="text-[24px] hover:text-blue-500"/>
             </a>
         </div>
 

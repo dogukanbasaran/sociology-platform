@@ -1,10 +1,12 @@
 import {Link} from "react-router-dom";
+import Marx from "../../assets/marx.png"
 
 
 const IntroductionPage = () => {
   return (
     <div className='font-open-sans bg-slate-950'>
-      <section className='flex flex-col justify-center items-center  h-[auto] py-24'>
+      <section className='flex flex-col justify-center items-center  h-[auto] py-24 relative'>
+        <img src={Marx} className="absolute right-0 opacity-20 bottom-0"/>
         <div className='h-[200px]'>
           <span className='text-[72px] font-bold text-gray-200 tracking-wider'>Start sociology from here.</span>
           <p className='text-[24px] text-gray-400 text-center'>The world’s leading and most popular sociologist platform.</p>
