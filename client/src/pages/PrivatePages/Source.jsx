@@ -32,7 +32,7 @@ const Source = () => {
                 <span className='font-bold text-[24px]'>{source.title}</span>
                 <span>Key Concepts: <span className="text-[12px] bg-slate-800 p-2 rounded-md">{source.keyConcepts}</span></span>
             </div>
-            <p className='border-white border-[0.5px] border-opacity-10 bg-transparent focus:outline-none rounded-md  p-10'>{source.content}</p>
+            <p className='border-white border-[0.5px] border-opacity-10 bg-transparent focus:outline-none rounded-md  p-10 w-full'>{source.content}</p>
             <span className='p-5 w-full border-white border-[0.5px] border-opacity-10 rounded-md mt-5'>
                Written by <span className="text-blue-500">{source.author}</span>
             </span>

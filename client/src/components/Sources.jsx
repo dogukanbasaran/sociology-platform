@@ -15,7 +15,7 @@ const Sources = () => {
 
 
   return (
-     <div className="mt-5 grid grid-cols-3">
+     <div className="mt-5 grid grid-cols-3 gap-4">
 
        {sources.map(source => {
 
@@ -23,12 +23,12 @@ const Sources = () => {
 
         return(
             <div key={source._id} className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 w-[360px] mb-5">
-                <div className="p-2 flex flex-col">
+                <div className="p-2 flex flex-col h-[300px]">
                     <div className='flex flex-col border-white border-b-[0.5px] border-opacity-10'>
                         <span className="text-center text-[20px]">{source.title}</span>
                         <span className='text-[12px] py-1'>Key Concepts: {source.keyConcepts}</span>
                     </div>
-                    <p className="py-2">{truncatedContent + "..."}</p>
+                    <p className="py-2">{truncatedContent}</p>
                 </div>
                <Link to={`/sources/${source._id}`}>
                 <button className="bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer w-full">More Detailed</button>
