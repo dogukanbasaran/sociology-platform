@@ -35,6 +35,7 @@ const Sources = () => {
   const prevDisabledButton = currentPage === 1;
   const nextDisabledButton = currentPage === totalPages || currentSources.length < itemsPerPage;
 
+ 
 
 
 
@@ -66,16 +67,18 @@ const Sources = () => {
               <button
                 onClick={() => setCurrentPage(currentPage - 1)}
                 disabled={prevDisabledButton}
-                className={`bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer mr-2  ${prevDisabledButton ? "bg-red-500 bg-opacity-100 cursor-default hover:bg-red-500" : ""}`}
+                className={`bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer  ${prevDisabledButton ? "bg-red-800 bg-opacity-90 cursor-not-allowed hover:bg-red-800" : ""}`}
                 >
                 Previous
               </button>
               <button
                 onClick={() => setCurrentPage(currentPage + 1)}
                 disabled={nextDisabledButton}
-                className={`bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer mr-2  ${nextDisabledButton ? "bg-red-500 bg-opacity-100 cursor-default hover:bg-red-500" : ""}`}>
+                className={`bg-slate-800 bg-opacity-20 rounded-md p-2 border-[0.5px] border-white border-opacity-10 hover:bg-slate-900 duration-300 cursor-pointer  ${nextDisabledButton ? "bg-red-800 bg-opacity-90 cursor-not-allowed hover:bg-red-800" : ""}`}>
                 Next
               </button>
+
+                   
             </div>
      </div>
   )
